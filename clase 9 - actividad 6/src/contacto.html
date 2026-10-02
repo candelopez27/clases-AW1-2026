@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+  <p> ¿Tenés alguna duda sobre talles, querés consultar disponibilidad de stock o coordinar un pedido especial? Escribime a través del siguiente formulario y me pondré en contacto con vos a la brevedad.
+  </p>
+
+  <form action="/contacto.html" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="Apellido">Apellido:</label>
+    <input type="text" id="Apellido" name="Apellido" required>
+
+    <label for="Celular">Celular:</label>
+    <input type="tel" id="Celular" name="Celular" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="categoria-de-interes">Categoría de interés:</label>
+    <select id="categoria-de-interes" name="Categoría de interés" required>
+      <option value="lenceria">Lencería</option>
+      <option value="pijamas">Pijamas</option>
+      <option value="mallas">Mallas</option>
+      <option value="bikinis">Bikinis</option>
+      <option value="ropa-deportiva">Ropa deportiva</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="consulta">Consulta:</label>
+    <select id="consulta" name="Consulta" required>
+      <option value="lenceria">Dudas sobre talles</option>
+      <option value="disponibilidad">Disponibilidad de stock</option>
+      <option value="pedido">Pedido especial</option>
+    </select>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+
+    <button type="submit">Enviar consulta</button>
+  </form>
+</body>
+</html>
