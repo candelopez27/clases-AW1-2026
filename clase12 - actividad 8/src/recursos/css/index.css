@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+html, body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    font-size: 16px; 
+}
+p {
+    font-size: 1rem; 
+}
+
+h1 {
+    font-size: 2rem; 
+}
+/*Selectores de tipo*/
+ul, a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+header, footer {
+    background-color: #519453;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5.5%; /* Un padding vertical pequeño */
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    margin: 0px  10px;
+}
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*3 selectores de clase*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Selector de clase 2: Grilla / Contenedor de productos con Flexbox */
+.contenedor-productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las tarjetas */
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+/* Selector de clase 3: Tarjeta individual para cada cabaña */
+.tarjeta-cabana {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1; /* Hace que todas ocupen el mismo ancho proporcionalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeta-cabana img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tarjeta-cabana h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.boton-reservar {
+    background-color: #519453;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.boton-reservar a {
+    color: white;
+    text-decoration: none;
+}
