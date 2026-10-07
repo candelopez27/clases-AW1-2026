@@ -1,0 +1,58 @@
+/*
+ Sintaxis
+ selector es un campo de busqueda --> busca en el html y le aplica los estilos que se definan en el bloque de codigo.
+*/
+
+/* REGLA CSS
+selector {
+  propiedad1: valor;
+  propiedad2: valor;
+  propiedad3: valor;
+}*/
+
+/*SELECTORES DE TIPO*/
+body {
+  background-color: aqua;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff; /*propiedad de las fuentes*/
+  padding: 20px;
+  text-align: center;
+}
+a{
+  color: white;
+}
+
+/*SELECTORES DE CLASE*/
+.vinculo-pie{
+    color: rgb(92, 85, 85);
+}
+
+/*cabecera*/
+.cabecera-principal{
+    background-color: rgb(92, 85, 85);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecera-principal h1 a{
+    font-size: 36px;
+    margin: 0;
+}
+
+.contenido-principal{
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(92, 85, 85);
+}
+/**/
+.pie-principal{
+    background-color: rgb(92, 85, 85);
+}
+
