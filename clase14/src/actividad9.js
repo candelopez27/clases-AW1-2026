@@ -19,4 +19,12 @@ console.log('h) Concatenación: ', palabra3 + " " + palabra4 + " " + palabra5)
 console.log('==========================')
 console.log('    2. Variables y constantes'       )
 console.log('==========================')
-cons
+const string = "Aplicaciones web"
+console.log(string +' - Sistemas')
+
+console.log('b). ')
+let parentesco = '';
+const nombre1 = 'Cande';
+const nombre2='Ivana'
+parentesco = nombre1+" es hermana de "+nombre2;
+console.log(parentesco)
